@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Formulário GS</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Entre em contato conosco</h1>
+      </header>
+      <form
+        action="https://formsubmit.co/giulyanofelipesantos@gmail.com"
+        method="POST"
+      >
+        <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_next"
+          value="http://127.0.0.1:5500/sucess-submit.html"
+        />
+        <label for="nome">Nome:</label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Digite seu nome"
+          required
+        />
+
+        <label for="tratamento">Como você gostaria de ser tratado(a)?</label>
+        <select name="tratamento" id="tratamento" required>
+          <option value="selecione">Selecione</option>
+          <option value="Sr">Sr</option>
+          <option value="Sra">Sra</option>
+          <option value="Outro">Outro</option>
+        </select>
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite seu Email"
+          required
+        />
+
+        <label for="conteudo-mensagem" id="msg">Mensagem:</label>
+        <textarea
+          cols="50"
+          rows="10"
+          name="conteudo-mensagem"
+          required
+        ></textarea>
+
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>

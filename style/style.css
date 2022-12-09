@@ -1,0 +1,54 @@
+/* TODO Adicionar font e Root */
+
+body {
+  background-color: lightgray;
+}
+
+main {
+  background-color: rgb(27, 115, 158);
+  width: 50vw;
+  height: 50vh;
+  margin: 0 auto;
+  border-radius: 2rem;
+  padding: 2.5rem;
+}
+
+main > header > h1 {
+  text-align: center;
+
+  margin-top: -1rem;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+form > .btn {
+  font-size: 1.25rem;
+}
+
+label {
+  display: inline-block;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  box-sizing: border-box;
+}
+
+input,
+label,
+select,
+textarea {
+  margin-top: 0.45rem;
+  border-radius: 0.25rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  border-radius: 0.25rem;
+}
