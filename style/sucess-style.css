@@ -1,11 +1,17 @@
+:root {
+  --bg-color: rgb(67, 129, 149);
+  --primary-color: lightsalmon;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Martian Mono', monospace;
 }
 
 body {
-  background-color: rgb(67, 129, 149);
+  background-color: var(--bg-color);
 }
 
 main {
@@ -17,7 +23,7 @@ main {
 }
 
 .msg-sucess {
-  background-color: lightsalmon;
+  background-color: var(--primary-color);
   border-radius: 1rem;
   padding: 1.5rem;
   text-align: center;
@@ -26,7 +32,7 @@ main {
 }
 
 h1 {
-  color: rgb(67, 129, 149);
+  color: var(--bg-color);
 }
 
 a > button {

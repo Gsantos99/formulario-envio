@@ -1,27 +1,39 @@
-/* TODO Adicionar font e Root */
+:root {
+  --bg-color: lightgray;
+  --primary-color: rgb(72, 76, 187);
+  --white-color: #ffff;
+}
+
+* {
+  font-family: 'Martian Mono', monospace;
+}
 
 body {
-  background-color: lightgray;
+  background-color: var(--bg-color);
+  background-image: url(/Moon.svg);
 }
 
 main {
-  background-color: rgb(27, 115, 158);
+  background-color: var(--primary-color);
   width: 50vw;
-  height: 50vh;
-  margin: 0 auto;
+  height: max-content;
+  margin-top: 20rem;
+  margin: 5rem auto;
   border-radius: 2rem;
   padding: 2.5rem;
+  color: var(--white-color);
 }
 
 main > header > h1 {
   text-align: center;
-
-  margin-top: -1rem;
+  color: var(--white-color);
+  margin-top: 1.2rem;
+  font-size: 3rem;
 }
 
 form {
   margin: 0 auto;
-  width: 400px;
+  width: 45rem;
   display: flex;
   flex-direction: column;
 }
@@ -32,6 +44,11 @@ form > .btn {
 
 label {
   display: inline-block;
+}
+
+input,
+select {
+  height: 2.5rem;
 }
 
 input,
