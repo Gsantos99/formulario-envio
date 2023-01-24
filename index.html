@@ -5,24 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;700&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;700&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <title>Formulário GS</title>
   </head>
   <body>
     <main>
       <header>
-        <h1>Entre em contato conosco</h1>
+        <h1>Entre em contato</h1>
       </header>
+
       <form
         action="https://formsubmit.co/giulyanofelipesantos@gmail.com"
         method="POST"
       >
         <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_subject" value="Nova Mensagem!" />
+        <input
+          type="hidden"
+          name="_autoresponse"
+          value="Sua mensagem foi recebida e será respondida em até 48 horas"
+        />
         <input
           type="hidden"
           name="_next"
-          value="http://127.0.0.1:5500/sucess-submit.html"
+          value="https://formulario-envio.vercel.app/form-submit.html"
         />
+
         <label for="nome">Nome:</label>
         <input
           type="text"
