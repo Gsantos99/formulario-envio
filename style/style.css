@@ -15,7 +15,7 @@ body {
 
 main {
   background-color: var(--primary-color);
-  width: 50vw;
+  width: max-content;
   height: max-content;
   margin-top: 20rem;
   margin: 5rem auto;
@@ -27,7 +27,6 @@ main {
 main > header > h1 {
   text-align: center;
   color: var(--white-color);
-  margin-top: 1.2rem;
   font-size: 3rem;
 }
 
@@ -35,6 +34,7 @@ form {
   margin: 0 auto;
   width: 45rem;
   display: flex;
+  padding: 45px;
   flex-direction: column;
 }
 
@@ -61,11 +61,12 @@ input,
 label,
 select,
 textarea {
-  margin-top: 0.45rem;
+  margin-top: 5px;
   border-radius: 0.25rem;
 }
 
 .btn {
   margin-top: 1rem;
   border-radius: 0.25rem;
+  padding: 8px;
 }
