@@ -1,6 +1,7 @@
 <h1 align="center"> FORMULÁRIO - Entre em contato conosco </h1>
 
-![Captura de Tela 2023-01-23 às 23 38 42](https://user-images.githubusercontent.com/94020264/214202022-c898b822-203a-438a-b09d-f96ba1af7afe.png)
+![Captura de Tela 2023-01-24 às 18 32 25](https://user-images.githubusercontent.com/94020264/214427641-d54eab7e-90bf-41fa-bad9-9220653dde95.png)
+
 
 ## :rocket: Descrição do projeto
 
@@ -27,6 +28,14 @@ O formulário de entre em contato é muito comum em páginas web, serve para os 
 ## 💻 Integração com o email
 
 <p> A integração com email foi feita utilizando o <a href="https://formsubmit.co/" target='_blank'> FormSubmit. <a/> Mas o que é o FormSubmit? É uma plataforma que nos fornece um endpoint sem a necessidade de nenhum código de Back-End para isso. Um endpoint seria como o código postal do formulário, ou seja,  o local para onde as informações serão enviadas, como um banco de dados, um caixa de email ou até mesmo uma planilha no Excel.
+  
+## Teste o formulário! 
+<ol>
+  <li> Insira suas informações, uma mensagem de teste e aperte no botão enviar.  </li>
+  <li> 
+Após visualizar a tela de confirmação, cheque sua caixa de email (o mesmo inserido anteriormente).  
+ </li>
+  </ol> 
 
 ## :man: Autor
 
