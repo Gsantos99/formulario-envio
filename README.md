@@ -29,6 +29,9 @@ O formulário de entre em contato é muito comum em páginas web, serve para os 
 
 <p> A integração com email foi feita utilizando o <a href="https://formsubmit.co/" target='_blank'> FormSubmit. <a/> Mas o que é o FormSubmit? É uma plataforma que nos fornece um endpoint sem a necessidade de nenhum código de Back-End para isso. Um endpoint seria como o código postal do formulário, ou seja,  o local para onde as informações serão enviadas, como um banco de dados, um caixa de email ou até mesmo uma planilha no Excel.
   
+  ![code](https://user-images.githubusercontent.com/94020264/214984301-363f28b9-61a8-4733-be10-bd85b3410278.png)
+  <p> Todas as configurações do formulário são feitas por meio de inputs do tipo "hidden", conforme a documentação do FormSubmit.  </p>
+  
 ## Teste o formulário! 
 <ol>
   <li> Insira suas informações, uma mensagem de teste e aperte no botão enviar.  </li>
